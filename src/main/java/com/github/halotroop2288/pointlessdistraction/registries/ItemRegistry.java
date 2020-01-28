@@ -15,6 +15,6 @@ public class ItemRegistry
 	
 	public static Item registerItem(String name, Item entry)
 	{
-		return Registry.register(Registry.ITEM, new Identifier(Cmn.MODID, name), entry);
+		return Registry.register(Registry.ITEM, new Identifier(Cmn.MODID, name.toLowerCase()), entry);
 	}
 }

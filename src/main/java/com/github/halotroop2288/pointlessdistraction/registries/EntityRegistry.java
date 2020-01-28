@@ -15,6 +15,6 @@ public class EntityRegistry
 	
 	private static void registerEntity(String name, EntityType<?> entry)
 	{
-		Registry.register(Registry.ENTITY_TYPE, new Identifier(Cmn.MODID, name), entry);
+		Registry.register(Registry.ENTITY_TYPE, new Identifier(Cmn.MODID, name.toLowerCase()), entry);
 	}
 }
