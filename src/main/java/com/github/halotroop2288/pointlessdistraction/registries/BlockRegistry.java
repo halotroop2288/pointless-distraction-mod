@@ -21,6 +21,7 @@ public class BlockRegistry
 	{
 		GAY_BLOCK = registerBasicBlock("gay_block", Blocks.WHITE_CONCRETE);
 		TRANS_BLOCK = registerBasicBlock("trans_block", Blocks.WHITE_CONCRETE);
+		TRANS_BLOCK = registerBasicBlock("bi_block", Blocks.WHITE_CONCRETE);
 	}
 	
 	private static Block registerBasicBlock(String name, Block blockToCopy)
