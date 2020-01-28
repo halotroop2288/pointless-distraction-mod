@@ -6,5 +6,6 @@ public class CommonRegistry
 	{
 		BlockRegistry.registerBlocks();
 		ItemRegistry.registerItems();
+		EntityRegistry.registerEntities();
 	}
 }

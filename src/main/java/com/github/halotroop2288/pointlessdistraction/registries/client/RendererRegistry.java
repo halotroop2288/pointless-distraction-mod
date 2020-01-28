@@ -6,7 +6,7 @@ import net.fabricmc.api.Environment;
 @Environment(EnvType.CLIENT)
 public class RendererRegistry
 {
-	private void registerRenderers()
+	public static void registerRenderers()
 	{
 		
 	}
